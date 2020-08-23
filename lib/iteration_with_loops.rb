@@ -14,7 +14,7 @@ count = 0
       end  
     inner_count +=1
   end
-  %w(new_string) << each_string
+  (new_string) << each_string
   count +=1
   end
 new_string
