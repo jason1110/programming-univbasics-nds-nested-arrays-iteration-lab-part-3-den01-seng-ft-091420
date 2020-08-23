@@ -7,10 +7,13 @@ new_string = ""
 count = 0
   while count < src.length do
   inner_count = 0
+  each_string = ""
     while inner_count < src[count].length do
-      if src[count][inner_count].class == "string"
+      if src[count][inner_count].class == string
+        new_string = src[count][inner_count]
     inner_count +=1
   end
+  new_string = each_string
   count +=1
   end
 new_string
