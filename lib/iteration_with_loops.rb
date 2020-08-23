@@ -11,7 +11,7 @@ count = 0
     while inner_count < src[count].length do
        src[count][inner_count].keep_if.class == String
         each_string = src[count][inner_count]
-      end  
+ 
     inner_count +=1
   end
   new_string = each_string
