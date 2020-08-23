@@ -17,5 +17,5 @@ count = 0
   new_string << each_string
   count +=1
   end
-new_string.join()
+new_string.join( )
 end
