@@ -10,7 +10,7 @@ count = 0
   each_string = []
     while inner_count < src[count].length do
       if src[count][inner_count].class == String
-        each_string = src[count][inner_count].join
+        each_string = src[count][inner_count]
       end  
     inner_count +=1
   end
